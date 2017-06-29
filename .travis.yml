@@ -8,3 +8,4 @@ before_install:
   - ruby -v
   - sudo apt-get install ruby
   - gem install selenium-webdriver
+  - ant test
