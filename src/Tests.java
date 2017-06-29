@@ -26,7 +26,7 @@ public class Tests {
   public void testS() throws Exception {
      System.out.print(" is ");
     driver.get(baseUrl + "/");
-    assertEquals("Global FinTech Hubs Federationje", driver.getTitle());
+    assertEquals("Global FinTech Hubs Federation", driver.getTitle());
   }
 
   @After
