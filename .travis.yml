@@ -1,6 +1,6 @@
 # Sample .travis.yml file:
 language: java
-install: ant deps
+
 rvm: # the Ruby versions to be used
   - 3.4.0
   
