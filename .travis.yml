@@ -10,4 +10,4 @@ before_install:
   - gem install selenium-webdriver
   - sudo apt-get install junit
   - sudo apt-get install ant-optional
-script: ant test
+script: ant Tests
