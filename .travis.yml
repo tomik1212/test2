@@ -8,3 +8,6 @@ jdk:
 before_install:
   - sudo apt-get install ruby
   - gem install selenium-webdriver
+
+
+script: ant build
