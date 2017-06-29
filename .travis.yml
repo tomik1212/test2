@@ -5,7 +5,7 @@ rvm: # the Ruby versions to be used
   - 3.4.0
   
 before_install:
-  - ruby -v
   - sudo apt-get install ruby
   - gem install selenium-webdriver
-  - ant test
+
+script: ant build
