@@ -9,5 +9,5 @@ before_install:
   - sudo apt-get install ruby
   - gem install selenium-webdriver
   - sudo apt-get install junit
-
+  - sudo apt-get install ant-optional
 script: ant Tests
