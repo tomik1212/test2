@@ -5,8 +5,7 @@ rvm: # the Ruby versions to be used
   - 3.4.0
   
 before_install:
-  - rvm:
-  - 2.2
+  - ruby -v
   - jruby
   - sudo apt-get install ruby2.0
   - gem install selenium-webdriver
