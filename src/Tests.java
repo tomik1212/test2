@@ -14,7 +14,7 @@ public class Tests {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
- System.out.print(" is2 ");
+
   @Before
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
