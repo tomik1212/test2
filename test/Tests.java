@@ -1,3 +1,5 @@
+require 'selenium-webdriver'
+require 'test/unit'
 
 
 import java.util.regex.Pattern;
