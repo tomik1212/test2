@@ -17,6 +17,5 @@ before_script:
    - sh -e /etc/init.d/xvfb start
 script: 
 - ant build
-- ant Tests
-- cd /home/travis/build/tomik1212/test2/junit
-- vim TEST-Tests.xml
+- ant -d Tests
+- 
