@@ -12,12 +12,23 @@ before_install:
   - sudo apt-get install ant-optional
   - sudo apt-get install firefox
 
+addons:
+ firefox: '46.0'
+ apt:
+  sources:
+    - google-chrome
+  packages:
+    - google-chrome-stable
+    
+    
 before_script:
    - export DISPLAY=:99.0
    - sh -e /etc/init.d/xvfb start
    - Xvfb :1 -screen 0 1920x1080x24 &
 
 script: 
+- xvfb-run wct
 - ant build
 - ant -d Tests
-- 
+
+ 
