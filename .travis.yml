@@ -11,7 +11,7 @@ before_install:
   - sudo apt-get install junit
   - sudo apt-get install ant-optional
   - sudo apt-get install firefox
-
+  - sudo apt install ruby-rack
 addons:
  firefox: '46.0'
     
