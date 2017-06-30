@@ -18,5 +18,5 @@ before_script:
 script: 
 - ant build
 - ant Tests
-- cd junit
+- cd /home/travis/build/tomik1212/test2/junit
 - vim TEST-Tests.xml
