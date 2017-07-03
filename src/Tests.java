@@ -23,10 +23,10 @@ public class Tests {
   }
 
   @Test
-  public void testS() throws Exception {
- 
+   public void testS() throws Exception {
+	  System.out.print(" is ");
     driver.get(baseUrl + "/");
-
+    System.out.print(driver.getTitle());
     assertEquals("Global FinTech Hubs Federation", driver.getTitle());
   }
 
