@@ -24,7 +24,7 @@ before_script:
   - sleep 3 # give Web server some time to bind to sockets, etc
 
 script: 
-- ant build
+
 - ant Tests
 
  
