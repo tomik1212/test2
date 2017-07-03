@@ -22,7 +22,7 @@ before_script:
   - sleep 3 # give xvfb some time to start
   #- sudo rackup  # start a Web server
   - sleep 3 # give Web server some time to bind to sockets, etc
--export PATH=$PATH:/path/to/geckodriver
+- export PATH=$PATH:/path/to/geckodriver
 script: 
 -
 - ant Tests
