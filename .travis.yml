@@ -18,7 +18,7 @@ before_install:
   - export PATH=$PATH:$PWD/geckodriver
 
 addons:
- firefox: '46.0'
+ firefox: '54.0.1'
     
 before_script:
   - "export DISPLAY=:99.0"
