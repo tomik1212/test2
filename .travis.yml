@@ -28,5 +28,5 @@ before_script:
 script: 
 
 - ant Tests
-- cd junit
-- cat TEST-Tests.xml
+#- cd junit
+#- cat TEST-Tests.xml
