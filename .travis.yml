@@ -21,6 +21,7 @@ addons:
  firefox: '54.0.1'
     
 before_script:
+  - "sh -e /etc/init.d/xvfb stop"
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - export PATH=$PATH:/path/to/geckodriver
@@ -28,5 +29,6 @@ before_script:
 script: 
 
 - ant Tests
+- "sh -e /etc/init.d/xvfb stop"
 - cd junit
 - cat TEST-Tests.xml
