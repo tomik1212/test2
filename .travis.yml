@@ -23,8 +23,8 @@ addons:
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
-
-#- export PATH=$PATH:/path/to/geckodriver
+  - export PATH=$PATH:/path/to/geckodriver
+  
 script: 
 
 - ant Tests
