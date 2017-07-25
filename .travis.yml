@@ -10,6 +10,7 @@ before_install:
   - gem install selenium-webdriver
   - sudo apt-get install junit
   - sudo apt-get install ant-optional
+  - sudo apt-get update
   - sudo apt-get install firefox
   - sudo apt install ruby-rack
   - wget https://github.com/mozilla/geckodriver/releases/download/v0.17.0/geckodriver-v0.17.0-linux64.tar.gz
